@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fertilizer Management: The Path to Bloom — Ministry of Agriculture, Bangladesh</title>
+<meta name="description" content="A ministerial blueprint for completing Bangladesh's fertilizer journey — from abundant national supply to every farmer's hands — built on the Krishak Card, the 2026 Dealer Policy, and proven Asian experience.">
+<meta name="theme-color" content="#006a4e">
+<!-- Favicon: golden panicle of rice (inline SVG, no external file) -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Cpath%20d='M32%2061V16'%20stroke='%23006a4e'%20stroke-width='3.5'%20stroke-linecap='round'%20fill='none'/%3E%3Cpath%20d='M32%2050q-14-2-18-14%2014%202%2018%2014z'%20fill='%23006a4e'/%3E%3Cg%20fill='%23e8b429'%20stroke='%23b8860b'%20stroke-width='1.2'%3E%3Cellipse%20cx='32'%20cy='10'%20rx='4.2'%20ry='7.5'/%3E%3Cellipse%20cx='24.5'%20cy='17'%20rx='4.2'%20ry='7.5'%20transform='rotate(-32%2024.5%2017)'/%3E%3Cellipse%20cx='39.5'%20cy='17'%20rx='4.2'%20ry='7.5'%20transform='rotate(32%2039.5%2017)'/%3E%3Cellipse%20cx='23.5'%20cy='27'%20rx='4.2'%20ry='7.5'%20transform='rotate(-32%2023.5%2027)'/%3E%3Cellipse%20cx='40.5'%20cy='27'%20rx='4.2'%20ry='7.5'%20transform='rotate(32%2040.5%2027)'/%3E%3Cellipse%20cx='22.5'%20cy='37'%20rx='4.2'%20ry='7.5'%20transform='rotate(-32%2022.5%2037)'/%3E%3Cellipse%20cx='41.5'%20cy='37'%20rx='4.2'%20ry='7.5'%20transform='rotate(32%2041.5%2037)'/%3E%3C/g%3E%3C/svg%3E">
+<!-- Apple touch icon: injected at runtime as a JPEG data-URI (see script at bottom) -->
+<link rel="apple-touch-icon" id="appleTouchIcon" sizes="180x180" href="">
+<style>
+:root{
+  --green:#006a4e; --green-d:#00493a; --green-l:#0d8a67;
+  --red:#f42a41; --gold:#e8b429; --gold-d:#b8860b;
+  --cream:#f8f5ee; --card:#ffffff; --ink:#13241d; --muted:#5c6b62; --line:#e5dfcf;
+  --shadow:0 10px 30px rgba(19,36,29,.10);
+  --r:16px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:"Segoe UI",system-ui,-apple-system,"Noto Sans Bengali","Hind Siliguri",Roboto,Arial,sans-serif;background:var(--cream);color:var(--ink);line-height:1.6}
+img,svg{display:block;max-width:100%}
+.wrap{max-width:1120px;margin:0 auto;padding:0 22px}
+/* ---------- top classification strip ---------- */
+.classbar{background:var(--green-d);color:#d9e8e0;font-size:.72rem;letter-spacing:.22em;text-align:center;padding:.45rem 1rem;text-transform:uppercase}
+/* ---------- nav ---------- */
+nav{position:sticky;top:0;z-index:50;background:rgba(0,73,58,.96);backdrop-filter:blur(8px);border-bottom:1px solid rgba(255,255,255,.12)}
+.nav-in{display:flex;align-items:center;gap:1.2rem;padding:.65rem 22px;max-width:1120px;margin:auto}
+.brand{display:flex;align-items:center;gap:.55rem;color:#fff;font-weight:700;text-decoration:none;font-size:.98rem;white-space:nowrap}
+.brand svg{width:26px;height:26px}
+.nav-links{display:flex;gap:.15rem;margin-left:auto;flex-wrap:wrap}
+.nav-links a{color:#cfe4da;text-decoration:none;font-size:.83rem;padding:.4rem .6rem;border-radius:8px;transition:.2s}
+.nav-links a:hover,.nav-links a.active{background:rgba(255,255,255,.14);color:#fff}
+/* ---------- hero ---------- */
+header.hero{background:radial-gradient(1200px 500px at 80% -10%,rgba(232,180,41,.22),transparent 60%),linear-gradient(160deg,var(--green-d),var(--green) 55%,#0a7a58);color:#fff;padding:4.2rem 0 3.4rem;position:relative;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:3rem;align-items:center}
+@media(max-width:900px){.hero-grid{grid-template-columns:1fr}}
+.eyebrow{font-size:.74rem;letter-spacing:.24em;text-transform:uppercase;color:var(--gold);font-weight:700;margin-bottom:1rem}
+h1{font-size:clamp(2.1rem,4.6vw,3.4rem);line-height:1.12;font-weight:800;letter-spacing:-.01em}
+h1 em{color:var(--gold);font-style:normal}
+.hero p.lede{margin:1.1rem 0 1.6rem;color:#dcebe3;font-size:1.06rem;max-width:34rem}
+.slogan{display:inline-block;background:#fff;border-radius:14px;padding:.8rem 1.3rem;margin-bottom:1.4rem;box-shadow:var(--shadow)}
+.slogan .bn{font-weight:800;color:var(--green);font-size:1.5rem;line-height:1.15}
+.slogan .bn .age{color:var(--red);font-size:1.05rem;vertical-align:middle;padding:0 .15rem}
+.slogan .en{color:var(--red);font-weight:800;font-style:italic;font-size:1.02rem;letter-spacing:.02em}
+.cta-row{display:flex;gap:.8rem;flex-wrap:wrap}
+.btn{display:inline-block;text-decoration:none;font-weight:700;border-radius:12px;padding:.8rem 1.5rem;font-size:.95rem;transition:.2s;cursor:pointer;border:none}
+.btn-gold{background:var(--gold);color:#241a05;box-shadow:0 6px 18px rgba(232,180,41,.35)}
+.btn-gold:hover{transform:translateY(-2px);background:#f2c14a}
+.btn-ghost{background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.5)}
+.btn-ghost:hover{background:rgba(255,255,255,.12)}
+/* hero journey svg */
+.journey{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.16);border-radius:var(--r);padding:1.2rem}
+.journey h3{font-size:.8rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:.6rem}
+/* stat strip */
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:1rem;margin-top:2.6rem}
+.stat{background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.16);border-radius:14px;padding:1rem 1.1rem}
+.stat b{display:block;font-size:1.55rem;color:var(--gold);font-weight:800;letter-spacing:-.02em}
+.stat span{font-size:.76rem;color:#cfe4da;text-transform:uppercase;letter-spacing:.1em}
+/* ---------- sections ---------- */
+section{padding:4.2rem 0}
+section.alt{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.kicker{color:var(--gold-d);font-weight:800;font-size:.76rem;letter-spacing:.24em;text-transform:uppercase;margin-bottom:.6rem}
+h2{font-size:clamp(1.6rem,3vw,2.3rem);font-weight:800;letter-spacing:-.01em;color:var(--green-d);margin-bottom:.7rem}
+.lead{color:var(--muted);max-width:44rem;font-size:1.02rem;margin-bottom:2rem}
+/* reveal animation */
+.rv{opacity:0;transform:translateY(26px);transition:opacity .7s ease,transform .7s ease}
+.rv.in{opacity:1;transform:none}
+/* bars */
+.chart{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:1.6rem;box-shadow:var(--shadow)}
+.chart h4{font-size:.95rem;color:var(--green-d);margin-bottom:1.1rem}
+.row{margin-bottom:1.15rem}
+.row .lab{display:flex;justify-content:space-between;font-size:.85rem;margin-bottom:.35rem;gap:1rem}
+.row .lab b{color:var(--ink)} .row .lab span{color:var(--muted)}
+.track{background:#efe9da;border-radius:8px;height:16px;position:relative;overflow:hidden}
+.track i{position:absolute;inset:0 auto 0 0;width:0;border-radius:8px;transition:width 1.3s cubic-bezier(.2,.8,.2,1)}
+.in .track i{width:var(--w)}
+.fill-off{background:var(--green)} .fill-mkt{background:var(--red)} .fill-gold{background:linear-gradient(90deg,var(--gold-d),var(--gold))}
+.badge{display:inline-block;font-size:.72rem;font-weight:800;border-radius:999px;padding:.15rem .6rem;background:#fdeef0;color:var(--red);border:1px solid #f6c4cb}
+.badge.ok{background:#e9f6ef;color:var(--green);border-color:#bfe3d0}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:1.4rem}
+@media(max-width:860px){.grid2{grid-template-columns:1fr}}
+/* cards */
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.2rem}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:1.5rem;box-shadow:var(--shadow);transition:.25s}
+.card:hover{transform:translateY(-4px)}
+.card .ico{width:44px;height:44px;border-radius:12px;background:#e9f6ef;display:grid;place-items:center;font-size:1.3rem;margin-bottom:.9rem}
+.card h4{color:var(--green-d);margin-bottom:.45rem;font-size:1.05rem}
+.card p{font-size:.9rem;color:var(--muted)}
+.card b.num{color:var(--gold-d)}
+/* tabs */
+.tabs{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:1.3rem}
+.tabs button{border:1.5px solid var(--line);background:#fff;border-radius:999px;padding:.55rem 1.15rem;font-weight:700;font-size:.88rem;color:var(--muted);cursor:pointer;transition:.2s}
+.tabs button[aria-selected="true"]{background:var(--green);border-color:var(--green);color:#fff}
+.panel[hidden]{display:none}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:1.8rem;box-shadow:var(--shadow)}
+.panel .facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1rem;margin-bottom:1.2rem}
+.panel .facts div{background:#f4f1e7;border-radius:12px;padding:.85rem}
+.panel .facts b{display:block;color:var(--green);font-size:1.2rem}
+.panel .facts span{font-size:.76rem;color:var(--muted)}
+.lesson{border-left:4px solid var(--gold);background:#fdf8ea;border-radius:0 12px 12px 0;padding:.9rem 1.1rem;font-size:.93rem}
+.lesson b{color:var(--gold-d)}
+/* story steps */
+.steps{counter-reset:st;display:grid;gap:1rem;max-width:46rem}
+.step{display:flex;gap:1.1rem;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:1.15rem 1.3rem;box-shadow:var(--shadow)}
+.step::before{counter-increment:st;content:counter(st);flex:0 0 40px;height:40px;border-radius:50%;background:var(--green);color:#fff;font-weight:800;display:grid;place-items:center;font-size:1.05rem}
+.step h4{color:var(--green-d);font-size:1rem;margin-bottom:.2rem}
+.step p{font-size:.9rem;color:var(--muted)}
+/* accordion layers */
+.layer{background:var(--card);border:1px solid var(--line);border-radius:14px;margin-bottom:.8rem;overflow:hidden;box-shadow:var(--shadow)}
+.layer summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:.9rem;padding:1.1rem 1.4rem;font-weight:800;color:var(--green-d)}
+.layer summary::-webkit-details-marker{display:none}
+.layer summary .n{flex:0 0 34px;height:34px;border-radius:10px;background:var(--gold);color:#241a05;display:grid;place-items:center;font-size:.95rem}
+.layer summary::after{content:"+";margin-left:auto;font-size:1.3rem;color:var(--gold-d);transition:.25s}
+.layer[open] summary::after{transform:rotate(45deg)}
+.layer .body{padding:0 1.4rem 1.3rem 4rem;font-size:.92rem;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:.45rem;margin-top:.7rem}
+.chip{font-size:.75rem;font-weight:700;background:#e9f6ef;color:var(--green);border:1px solid #bfe3d0;border-radius:999px;padding:.25rem .7rem}
+/* pilot numbers */
+.bignums{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:1rem;margin-bottom:1.6rem}
+.bignum{background:linear-gradient(160deg,var(--green),var(--green-l));color:#fff;border-radius:14px;padding:1.2rem;text-align:center}
+.bignum b{display:block;font-size:1.7rem;color:var(--gold)}
+.bignum span{font-size:.74rem;letter-spacing:.12em;text-transform:uppercase;color:#cfe4da}
+.donut-wrap{display:flex;gap:1.6rem;align-items:center;flex-wrap:wrap}
+.legend{font-size:.88rem;display:grid;gap:.4rem}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:.5rem}
+/* timeline */
+.tl{position:relative;margin-left:.9rem;border-left:3px solid var(--line);padding-left:2rem;display:grid;gap:1.6rem}
+.phase{position:relative}
+.phase::before{content:"";position:absolute;left:-2.62rem;top:.35rem;width:16px;height:16px;border-radius:50%;background:var(--line);border:3px solid var(--cream);transition:.4s}
+.phase.in::before{background:var(--gold);box-shadow:0 0 0 5px rgba(232,180,41,.25)}
+.phase h4{color:var(--green-d);font-size:1.08rem}
+.phase .win{font-size:.76rem;font-weight:800;color:var(--gold-d);letter-spacing:.14em;text-transform:uppercase}
+.phase p{font-size:.9rem;color:var(--muted);margin-top:.35rem}
+/* scenario switch bars */
+.switch{display:inline-flex;background:#efe9da;border-radius:999px;padding:.3rem;gap:.2rem;margin-bottom:1.4rem}
+.switch button{border:none;background:transparent;border-radius:999px;padding:.45rem 1.1rem;font-weight:800;font-size:.82rem;color:var(--muted);cursor:pointer}
+.switch button.on{background:var(--green);color:#fff}
+/* checklist */
+.check{display:grid;gap:.8rem;max-width:48rem}
+.ck{display:flex;gap:1rem;align-items:flex-start;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:1.05rem 1.2rem;cursor:pointer;transition:.2s;box-shadow:var(--shadow)}
+.ck:hover{border-color:var(--gold)}
+.ck input{position:absolute;opacity:0}
+.ck .box{flex:0 0 26px;height:26px;border-radius:8px;border:2px solid var(--green);display:grid;place-items:center;color:#fff;font-weight:800;font-size:.9rem;transition:.2s;margin-top:.1rem}
+.ck input:checked + .box{background:var(--green)}
+.ck input:checked + .box::after{content:"✓"}
+.ck input:checked ~ .txt h4{text-decoration:line-through;color:var(--muted)}
+.ck h4{font-size:.98rem;color:var(--green-d)}
+.ck p{font-size:.85rem;color:var(--muted)}
+.progress-wrap{display:flex;align-items:center;gap:1rem;margin-bottom:1.4rem}
+.ring{transform:rotate(-90deg)}
+.ring circle{fill:none;stroke-width:8}
+.ring .bg{stroke:#e5dfcf}
+.ring .fg{stroke:var(--gold);stroke-linecap:round;transition:stroke-dashoffset .5s}
+/* quote */
+.quote{background:linear-gradient(160deg,var(--green-d),var(--green));color:#fff;border-radius:var(--r);padding:3rem 2.4rem;text-align:center;box-shadow:var(--shadow)}
+.quote p{font-size:clamp(1.15rem,2.4vw,1.6rem);font-weight:700;line-height:1.45;max-width:46rem;margin:0 auto}
+.quote p b{color:var(--gold)}
+.quote .attr{margin-top:1.2rem;font-size:.8rem;letter-spacing:.2em;text-transform:uppercase;color:#bfe3d0}
+footer{background:var(--green-d);color:#a9c6ba;padding:2.6rem 0;font-size:.82rem}
+footer b{color:#fff}
+details.data{margin-top:2rem;background:#fff;border:1px solid var(--line);border-radius:14px;padding:1rem 1.4rem}
+details.data summary{cursor:pointer;font-weight:800;color:var(--green-d)}
+details.data table{width:100%;border-collapse:collapse;font-size:.82rem;margin-top:1rem}
+details.data th,details.data td{border:1px solid var(--line);padding:.5rem .6rem;text-align:left}
+details.data th{background:#f4f1e7;color:var(--green-d)}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+
+<div class="classbar">Official / Ministerial Briefing · September 2026 · People's Republic of Bangladesh</div>
+
+<nav>
+  <div class="nav-in">
+    <a class="brand" href="#top">
+      <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M32 61V16" stroke="#e8b429" stroke-width="3.5" stroke-linecap="round" fill="none"/><g fill="#e8b429"><ellipse cx="32" cy="10" rx="4.2" ry="7.5"/><ellipse cx="24.5" cy="17" rx="4.2" ry="7.5" transform="rotate(-32 24.5 17)"/><ellipse cx="39.5" cy="17" rx="4.2" ry="7.5" transform="rotate(32 39.5 17)"/><ellipse cx="23.5" cy="27" rx="4.2" ry="7.5" transform="rotate(-32 23.5 27)"/><ellipse cx="40.5" cy="27" rx="4.2" ry="7.5" transform="rotate(32 40.5 27)"/><ellipse cx="22.5" cy="37" rx="4.2" ry="7.5" transform="rotate(-32 22.5 37)"/><ellipse cx="41.5" cy="37" rx="4.2" ry="7.5" transform="rotate(32 41.5 37)"/></g></svg>
+      The Path to Bloom
+    </a>
+    <div class="nav-links">
+      <a href="#gap">Opportunity</a><a href="#asia">Asia</a><a href="#architecture">Architecture</a>
+      <a href="#pilot">Pilot</a><a href="#roadmap">Roadmap</a><a href="#mel">Results</a><a href="#actions">7 Actions</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <div class="slogan" aria-label="Bangladesh Before All">
+          <div class="bn">সবার <span class="age">আগে</span><br>বাংলাদেশ</div>
+          <div class="en">Bangladesh Before All</div>
+        </div>
+        <div class="eyebrow">Ministry of Agriculture · Strategic Planning Unit</div>
+        <h1>Fertilizer Management:<br><em>The Path to Bloom</em></h1>
+        <p class="lede">The warehouses are full. The promise is not — yet. This is the blueprint for completing Bangladesh's fertilizer journey: from abundant national supply to <b>every farmer's hands</b>, on the digital rails of the Krishak Card, the 2026 Dealer Policy, and proven Asian experience.</p>
+        <div class="cta-row">
+          <a class="btn btn-gold" href="#gap">Explore the Blueprint</a>
+          <a class="btn btn-ghost" href="#actions">See the 7 Ministerial Actions</a>
+        </div>
+      </div>
+      <div class="journey" aria-hidden="true">
+        <h3>The tracked journey of every kilogram</h3>
+        <svg viewBox="0 0 460 190">
+          <path id="jp" d="M60 130 Q 145 55 230 130 Q 315 55 400 130" fill="none" stroke="rgba(255,255,255,.35)" stroke-width="2.5" stroke-dasharray="6 6"/>
+          <g font-size="26" text-anchor="middle">
+            <text x="60" y="150">🏭</text><text x="230" y="150">🏬</text><text x="400" y="150">🧑‍🌾</text>
+          </g>
+          <g font-size="10.5" fill="#cfe4da" text-anchor="middle" font-weight="700">
+            <text x="60" y="170">Import &amp; BADC stores</text><text x="230" y="170">Dealer PoS · biometric</text><text x="400" y="170">Farmer's hands</text>
+          </g>
+          <g font-size="9" fill="#e8b429" text-anchor="middle" font-weight="800">
+            <text x="60" y="112">LEDGER ✓</text><text x="230" y="112">LEDGER ✓</text><text x="400" y="112">LEDGER ✓</text>
+          </g>
+          <circle r="6" fill="#e8b429">
+            <animateMotion dur="5s" repeatCount="indefinite"><mpath href="#jp"/></animateMotion>
+          </circle>
+        </svg>
+      </div>
+    </div>
+    <div class="stats">
+      <div class="stat"><b data-count="17001" data-prefix="Tk " data-suffix=" Cr">Tk 0 Cr</b><span>Historic subsidy investment</span></div>
+      <div class="stat"><b data-count="1.365" data-dec="3" data-suffix="M t">0M t</b><span>Ready in national stores</span></div>
+      <div class="stat"><b data-count="72" data-suffix=":1">0:1</b><span>Projected pilot Year-1 ROI</span></div>
+      <div class="stat"><b data-count="5" data-prefix="&lt; " data-suffix="%">&lt; 0%</b><span>Target leakage floor</span></div>
+      <div class="stat"><b data-count="80" data-suffix="%">0%</b><span>Of public ag spending</span></div>
+    </div>
+  </div>
+</header>
+
+<!-- ============ TWO PICTURES ============ -->
+<section id="gap">
+  <div class="wrap">
+    <div class="kicker rv">Part I · The Opportunity</div>
+    <h2 class="rv">Two pictures. One distance. That distance is the reform.</h2>
+    <p class="lead rv">On the national ledger, abundance is the story: <b>1.365 million tonnes</b> in warehouses and <b>365,000 tonnes</b> of approved imports worth <b>Tk 2,562 crore</b> moving smoothly. At the farm gate, the next chapter is being written — in premiums, queues and uncertainty. Hold the two pictures side by side and the value of reform becomes unmistakable.</p>
+    <div class="grid2">
+      <div class="chart rv">
+        <h4>Farm-gate premium over official price <span class="badge">the gap reform recovers</span></h4>
+        <div class="row"><div class="lab"><b>Rajshahi — TSP, 50 kg bag</b><span>Official Tk 1,350 → Market Tk 1,700–1,800</span></div>
+          <div class="track"><i class="fill-off" style="--w:75%"></i></div>
+          <div class="track" style="margin-top:5px"><i class="fill-mkt" style="--w:100%"></i></div>
+          <div style="margin-top:6px"><span class="badge">+33% premium</span></div></div>
+        <div class="row"><div class="lab"><b>Jashore — TSP, per kg</b><span>Official ~Tk 26 → Market Tk 52</span></div>
+          <div class="track"><i class="fill-off" style="--w:50%"></i></div>
+          <div class="track" style="margin-top:5px"><i class="fill-mkt" style="--w:100%"></i></div>
+          <div style="margin-top:6px"><span class="badge">+100% premium</span></div></div>
+        <p style="font-size:.78rem;color:var(--muted);margin-top:.6rem">Green = official price · Red = observed market price (bar length scaled within each district).</p>
+      </div>
+      <div class="chart rv">
+        <h4>Dealer stock lifting vs allocation <span class="badge ok">headroom for faster delivery</span></h4>
+        <div class="row"><div class="lab"><b>Gazipur (Urea)</b><span>800 / 1,876 t lifted</span></div><div class="track"><i class="fill-gold" style="--w:43%"></i></div></div>
+        <div class="row"><div class="lab"><b>Dhaka Division (8 districts)</b><span>8,965 / 19,918 t lifted</span></div><div class="track"><i class="fill-gold" style="--w:45%"></i></div></div>
+        <div class="row"><div class="lab"><b>Mymensingh Division</b><span>9,992 / 31,425 t lifted</span></div><div class="track"><i class="fill-gold" style="--w:32%"></i></div></div>
+        <p style="font-size:.85rem;color:var(--muted);margin-top:.8rem">In Bhurungamari, Kurigram, farmers' eagerness for reliable, fairly priced supply was unmistakable — the demand a trusted system will satisfy.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TARGETING ============ -->
+<section class="alt" id="target">
+  <div class="wrap">
+    <div class="kicker rv">Precision is justice</div>
+    <h2 class="rv">The same budget. Exponentially better outcomes.</h2>
+    <p class="lead rv">World Bank assessment: the top quintile of landholders currently receives <b>roughly half of every taka</b> spent, while the bottom 40 percent of farmers — the families who turn every taka into food security — receive around <b>one seventh</b>. Redirecting the flow multiplies yield, income and national food supply.</p>
+    <div class="chart rv" style="max-width:46rem">
+      <h4>Share of subsidy benefit reaching the bottom 40% of farmers</h4>
+      <div class="switch" id="tgtSwitch" role="group" aria-label="Scenario">
+        <button class="on" data-v="15" data-l="~15% today">Today</button>
+        <button data-v="30" data-l="30% by Year 3">Year 3</button>
+        <button data-v="42" data-l="40%+ by Year 5">Year 5</button>
+      </div>
+      <div class="track" style="height:26px"><i class="fill-gold" id="tgtBar" style="--w:15%"></i></div>
+      <div style="display:flex;justify-content:space-between;margin-top:.6rem;font-size:.9rem">
+        <b id="tgtLabel" style="color:var(--gold-d)">~15% today</b>
+        <span style="color:var(--muted)">SDG 1 commitment: above 40%</span>
+      </div>
+    </div>
+    <div class="cards" style="margin-top:2rem">
+      <div class="card rv"><div class="ico">💰</div><h4>Fiscal excellence</h4><p>At <b class="num">Tk 17,001 Cr/yr</b> (+ Tk 1,350 Cr in FY2025-26), subsidies are ~<b class="num">80%</b> of public ag spending. Every efficiency gain releases fresh resources for extension, research and rural infrastructure.</p></div>
+      <div class="card rv"><div class="ico">🎯</div><h4>Precision targeting</h4><p>Land-linked, biometric entitlements convert anti-poverty spending into maximum farmer benefit — the heart of the reform.</p></div>
+      <div class="card rv"><div class="ico">🏭</div><h4>Domestic production</h4><p>Over <b class="num">70%</b> of demand is imported; domestic output ~<b class="num">1.06 Mt</b> vs demand ~<b class="num">6.6 Mt</b>. A clear pathway to resilience and food sovereignty.</p></div>
+      <div class="card rv"><div class="ico">🌱</div><h4>Environmental stewardship</h4><p><b class="num">95%</b> of farmers can benefit from balanced-nutrient practice — richer soils, cleaner water, lower emissions across the rice deltas.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ASIA ============ -->
+<section id="asia">
+  <div class="wrap">
+    <div class="kicker rv">Part II · The Turning Point</div>
+    <h2 class="rv">Asia has already paid for these lessons. Bangladesh gets them free.</h2>
+    <p class="lead rv">Efficiency is the new yield. China's nutrient use efficiency slid 61%→50%, India's 50%→42% — while India spends over US$8 billion a year. Bangladesh can lead the region by holding NUE <b>above 50%</b>, a distinction no large Asian economy has achieved at scale.</p>
+    <div class="tabs rv" role="tablist">
+      <button role="tab" aria-selected="true"  data-p="p-in">🇮🇳 India</button>
+      <button role="tab" aria-selected="false" data-p="p-cn">🇨🇳 China</button>
+      <button role="tab" aria-selected="false" data-p="p-vn">🇻🇳 Vietnam</button>
+      <button role="tab" aria-selected="false" data-p="p-ph">🇵🇭 Philippines</button>
+    </div>
+    <div class="panel rv" id="p-in" role="tabpanel">
+      <div class="facts">
+        <div><b>287,000</b><span>retailers on biometric PoS</span></div>
+        <div><b>84 crore</b><span>farmers served, no-denial since 2018</span></div>
+        <div><b>12,814</b><span>show-cause notices; 5,000+ licences cancelled in 7 months</span></div>
+        <div><b>₹1.71 lakh Cr</b><span>budgeted 2026-27</span></div>
+      </div>
+      <p style="font-size:.93rem;color:var(--muted);margin-bottom:1rem">Aadhaar-enabled point-of-sale releases subsidy only after a verified sale; e-Bill links payments to dealer sales records; land- and crop-based pre-booking limits are now piloting.</p>
+      <div class="lesson"><b>Lesson for Bangladesh:</b> biometric authentication at the point of sale is the surest foundation for protecting every taka of subsidy value. Land-linked quotas are the next frontier.</div>
+    </div>
+    <div class="panel" id="p-cn" role="tabpanel" hidden>
+      <div class="facts">
+        <div><b>2015</b><span>manufacturing subsidies removed; Zero Growth Action Plan</span></div>
+        <div><b>&gt;99%</b><span>villages with fibre or 4G</span></div>
+        <div><b>~80%</b><span>villages host farmer information societies</span></div>
+        <div><b>+3.5%</b><span>fertilizer efficiency for internet-reached farmers</span></div>
+      </div>
+      <p style="font-size:.93rem;color:var(--muted);margin-bottom:1rem">STFFT soil testing (&gt;90% coverage target), organic replacement, and competitive e-commerce that pushed operators to cut chemical use to protect product reputation.</p>
+      <div class="lesson"><b>Lesson for Bangladesh:</b> digital infrastructure must precede or accompany subsidy reform — and market incentives can change behaviour more powerfully than input subsidies alone.</div>
+    </div>
+    <div class="panel" id="p-vn" role="tabpanel" hidden>
+      <div class="facts">
+        <div><b>1M ha</b><span>Mekong Delta low-emission rice programme</span></div>
+        <div><b>−31.3%</b><span>average fertilizer use</span></div>
+        <div><b>−20%</b><span>nitrogen &amp; irrigation water</span></div>
+        <div><b>1M5R</b><span>"One Must, Five Reductions"</span></div>
+      </div>
+      <p style="font-size:.93rem;color:var(--muted);margin-bottom:1rem">Certified seeds paired with simultaneous cuts in seeding, fertilizer, pesticide, water and post-harvest loss; soil health cards deliver tailored recommendations.</p>
+      <div class="lesson"><b>Lesson for Bangladesh:</b> reduction is not loss. Targeted packages for specific value chains improve farmer economics and environmental resilience simultaneously.</div>
+    </div>
+    <div class="panel" id="p-ph" role="tabpanel" hidden>
+      <div class="facts">
+        <div><b>600,000</b><span>rice farmers received ₱5,000 cash subsidies</span></div>
+        <div><b>AFEAC</b><span>cooperative aggregates demand &amp; extension</span></div>
+        <div><b>Climate-smart</b><span>coconut-based farming systems</span></div>
+        <div><b>Laguna Lake</b><span>watershed stewardship frontier</span></div>
+      </div>
+      <p style="font-size:.93rem;color:var(--muted);margin-bottom:1rem">Cooperatives show promise — and limits. With digital tracking added, cooperative strength combines with precision delivery.</p>
+      <div class="lesson"><b>Lesson for Bangladesh:</b> cooperatives plus digital tracking keep every taka on target; verified cash transfers over mobile rails deliver outstanding results.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STORY ============ -->
+<section class="alt" id="story">
+  <div class="wrap">
+    <div class="kicker rv">The bloom, lived</div>
+    <h2 class="rv">A morning in Bhurungamari, after the reform.</h2>
+    <p class="lead rv">Policy is only worth what a farmer can hold. This is the end-state, step by step.</p>
+    <div class="steps">
+      <div class="step rv"><div><h4>She walks to the authorized dealer</h4><p>One dealer per union under the 2026 Comprehensive Dealer Policy — streamlined, transparent, digitally monitored.</p></div></div>
+      <div class="step rv"><div><h4>She places her thumb on the scanner</h4><p>Krishak Card + NID biometric authentication at the point of sale, with offline capability and local server sync.</p></div></div>
+      <div class="step rv"><div><h4>Her exact entitlement appears</h4><p>Urea and DAP quantities calculated from her soil-test results and crop declaration, linked to her verified land parcel.</p></div></div>
+      <div class="step rv"><div><h4>She pays the government-fixed price</h4><p>No queue. No black market. No uncertainty. The transaction takes under ten minutes.</p></div></div>
+      <div class="step rv"><div><h4>The ledger closes the loop</h4><p>Every kilogram traced from import or production to final sale on a national digital ledger — with a public dashboard behind it.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ARCHITECTURE ============ -->
+<section id="architecture">
+  <div class="wrap">
+    <div class="kicker rv">Part III · The Path Forward</div>
+    <h2 class="rv">Four layers. Every one maps to an asset the government already owns.</h2>
+    <p class="lead rv">Feasibility is proven twice: the digital rails exist inside government systems today, and four Asian neighbours have de-risked the model at scale.</p>
+    <details class="layer rv" open><summary><span class="n">1</span> Identity &amp; Land</summary>
+      <div class="body">Biometric linkage to verified land parcels and crop declarations.
+        <div class="chips"><span class="chip">Krishak Card · Apr 2026 · 120 data points</span><span class="chip">20,671 farmers receiving Tk 2,500/yr via MFS</span><span class="chip">22M IDs target by 2028</span><span class="chip">NID</span><span class="chip">BDS/EDLMS · 20,000+ mouza maps · 138,000 digitizing</span><span class="chip">Korea MoU · Sept 2025</span></div>
+      </div></details>
+    <details class="layer rv"><summary><span class="n">2</span> Point of Sale</summary>
+      <div class="body">Aadhaar-style biometric PoS devices at every dealer shop, with offline capability and local server sync — subsidy released only on a verified sale.
+        <div class="chips"><span class="chip">Biometric PoS</span><span class="chip">Offline-first</span><span class="chip">Local server nodes</span><span class="chip">e-Bill integration</span></div>
+      </div></details>
+    <details class="layer rv"><summary><span class="n">3</span> Tracking &amp; Transparency</summary>
+      <div class="body">A Central Digital Ledger with blockchain verification: an immutable record from import or production through dealer to farmer, exposed on a public dashboard.
+        <div class="chips"><span class="chip">Blockchain ledger</span><span class="chip">Public dashboard</span><span class="chip">Leakage-detection alerts</span></div>
+      </div></details>
+    <details class="layer rv"><summary><span class="n">4</span> Advisory &amp; Verification</summary>
+      <div class="body">National Digital Agriculture Platform with mobile-first soil-health advice, plus satellite NDVI verification of crop declarations.
+        <div class="chips"><span class="chip">Soil Health Cards</span><span class="chip">Satellite NDVI</span><span class="chip">USSD/SMS for the 68% without smartphones</span><span class="chip">Bangla voice UI</span><span class="chip">AI demand forecasting</span></div>
+      </div></details>
+  </div>
+</section>
+
+<!-- ============ PILOT ============ -->
+<section class="alt" id="pilot">
+  <div class="wrap">
+    <div class="kicker rv">Proof of concept</div>
+    <h2 class="rv">KrishiChain BD: transparent inputs, sustainable yields.</h2>
+    <p class="lead rv">50 dealer bins across Chattogram and Khulna, 12 months, blended finance — and a return that pays for the entire reform argument in year one.</p>
+    <div class="bignums rv">
+      <div class="bignum"><b>$219,450</b><span>Total pilot investment</span></div>
+      <div class="bignum"><b>72:1</b><span>Year-1 ROI · payback &lt; 1 month</span></div>
+      <div class="bignum"><b>20%</b><span>Diverted subsidy recovery target</span></div>
+      <div class="bignum"><b>$8.78</b><span>Cost per farmer reached</span></div>
+    </div>
+    <div class="grid2">
+      <div class="chart rv">
+        <h4>Blended funding structure</h4>
+        <div class="donut-wrap">
+          <svg width="170" height="170" viewBox="0 0 42 42" aria-hidden="true">
+            <circle cx="21" cy="21" r="15.9" fill="none" stroke="#006a4e" stroke-width="8" stroke-dasharray="40 60" stroke-dashoffset="25"/>
+            <circle cx="21" cy="21" r="15.9" fill="none" stroke="#0d8a67" stroke-width="8" stroke-dasharray="40 60" stroke-dashoffset="-15"/>
+            <circle cx="21" cy="21" r="15.9" fill="none" stroke="#e8b429" stroke-width="8" stroke-dasharray="10 90" stroke-dashoffset="-55"/>
+            <circle cx="21" cy="21" r="15.9" fill="none" stroke="#b8860b" stroke-width="8" stroke-dasharray="10 90" stroke-dashoffset="-65"/>
+          </svg>
+          <div class="legend">
+            <div><i style="background:#006a4e"></i>40% Government of Bangladesh</div>
+            <div><i style="background:#0d8a67"></i>40% Development partners</div>
+            <div><i style="background:#e8b429"></i>10% Private sector</div>
+            <div><i style="background:#b8860b"></i>10% In-kind (BADC &amp; BCIC)</div>
+          </div>
+        </div>
+      </div>
+      <div class="chart rv">
+        <h4>Gated scaling — each stage earns the next</h4>
+        <div class="row"><div class="lab"><b>Phase 1 · Months 1–3 · $219K</b><span>95% transaction capture</span></div><div class="track"><i class="fill-gold" style="--w:33%"></i></div></div>
+        <div class="row"><div class="lab"><b>Phase 2 · Months 4–8 · $850K</b><span>recover 20% of diverted value</span></div><div class="track"><i class="fill-gold" style="--w:66%"></i></div></div>
+        <div class="row"><div class="lab"><b>Phase 3 · Months 9–12 · $1.85M</b><span>5,000 dealers · +10% NUE nationwide</span></div><div class="track"><i class="fill-gold" style="--w:100%"></i></div></div>
+        <p style="font-size:.85rem;color:var(--muted)">Four products: dealer app (offline-first, Bangla voice UI) · farmer USSD/SMS + app with digital receipts · officer dashboard with heatmaps &amp; NUE monitoring · policy engine with e-Bill, blockchain ledger and AI forecasting.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ROADMAP ============ -->
+<section id="roadmap">
+  <div class="wrap">
+    <div class="kicker rv">Part V · Implementation</div>
+    <h2 class="rv">Sixty months. Four phases. Each capability proven before the next depends on it.</h2>
+    <div class="tl" style="margin-top:2.2rem">
+      <div class="phase rv"><div class="win">Phase I · Foundation · Months 1–12</div><h4>Regulatory &amp; technical base</h4><p>Implementing rules of the 2026 Dealer Policy with digital compliance mandates; biometric PoS pilots in 2 divisions; Krishak Card ↔ NID ↔ initial BDS parcels; Soil Health Card sampling in pilot upazilas; local server nodes; KrishiChain Phase 1 (50 dealers, 95% capture).</p></div>
+      <div class="phase rv"><div class="win">Phase II · Integration · Months 13–24</div><h4>Nationwide authentication</h4><p>Nationwide biometric PoS and e-Bill on the India model; quotas linked to verified land area and crop type; mobile crop-declaration and pre-booking app; satellite NDVI verification for Boro; public transparency dashboard; KrishiChain Phase 2.</p></div>
+      <div class="phase rv"><div class="win">Phase III · Optimization · Months 25–36</div><h4>Subsidy moves to the farmer</h4><p>e-Voucher pilots over MFS rails; Soil Health Card coverage beyond one million; AI/ML demand forecasting; import share falls from 70% toward 50%; KrishiChain Phase 3 (5,000 dealers, +10% NUE); BADC MIS fully integrated.</p></div>
+      <div class="phase rv"><div class="win">Phase IV · Sustainability · Months 37–60</div><h4>The self-sustaining cycle</h4><p>Full transition to targeted, land-linked entitlements; market-linkage platforms rewarding sustainable practice; independent oversight body; full SDG 2.4 and FAO Better Production alignment; South Asian agricultural-governance leadership secured.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MEL ============ -->
+<section class="alt" id="mel">
+  <div class="wrap">
+    <div class="kicker rv">The success backbone</div>
+    <h2 class="rv">Every outcome carries a number. Every number carries a name.</h2>
+    <p class="lead rv">Quarterly Ministry-led technical reviews with DAE, BADC and IT teams; an annual stakeholder forum with farmers and civil society; smart support triggers — e.g. local-server redundancy whenever PoS uptime approaches 90%.</p>
+    <div class="chart rv">
+      <h4>MEL results framework — switch the horizon</h4>
+      <div class="switch" id="melSwitch" role="group" aria-label="Horizon">
+        <button data-i="0">Baseline</button><button class="on" data-i="1">Year 3</button><button data-i="2">Year 5</button>
+      </div>
+      <div id="melRows"></div>
+      <p style="font-size:.82rem;color:var(--muted);margin-top:.8rem">Fiscal integrity: subsidy leakage moves <b>High → &lt;10% (Y3) → &lt;5% (Y5)</b> via audit + blockchain trace. Sources: Central Digital Ledger, Krishak Card + MFS data, iFMS-style system, soil + yield data, farmer surveys.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ECONOMICS ============ -->
+<section id="economics">
+  <div class="wrap">
+    <div class="kicker rv">Part VI · Cost–benefit</div>
+    <h2 class="rv">The reform pays for itself. Then it pays again. Every year.</h2>
+    <div class="grid2" style="margin-top:1.6rem">
+      <div class="card rv"><h4>Efficiency recovery</h4><p><b class="num">Tk 2,000–3,000 crore per year</b>, against a capital requirement limited to biometric PoS devices, local servers and soil-testing expansion — all scalable through public-private partnership.</p></div>
+      <div class="card rv"><h4>Payback &amp; permanent dividend</h4><p>Repayment within <b class="num">two to three fiscal cycles</b>, after which savings compound every year the system runs. Farmer transaction time falls from <b class="num">a morning at the counter</b> to <b class="num">under 10 minutes</b>.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ACTIONS ============ -->
+<section class="alt" id="actions">
+  <div class="wrap">
+    <div class="kicker rv">Immediate ministerial recommendations</div>
+    <h2 class="rv">Seven signatures. No new legislation. One budget cycle.</h2>
+    <p class="lead rv">Each action is sequenced to unlock the next. Track the sign-off below — the mandate completes itself.</p>
+    <div class="progress-wrap rv">
+      <svg class="ring" width="72" height="72" viewBox="0 0 72 72"><circle class="bg" cx="36" cy="36" r="30"/><circle class="fg" id="ringFg" cx="36" cy="36" r="30" stroke-dasharray="188.5" stroke-dashoffset="188.5"/></svg>
+      <div><b id="ckCount" style="color:var(--green-d);font-size:1.15rem">0 / 7 signed off</b><br><span style="font-size:.85rem;color:var(--muted)" id="ckMsg">The decision awaits.</span></div>
+    </div>
+    <div class="check rv" id="checklist">
+      <label class="ck"><input type="checkbox"><span class="box"></span><div class="txt"><h4>1 · Issue the biometric PoS circular</h4><p>Secretary of Agriculture to mandate biometric PoS piloting in all divisions within 90 days, on the Krishak Card + NID identity backbone.</p></div></label>
+      <label class="ck"><input type="checkbox"><span class="box"></span><div class="txt"><h4>2 · Link stock allocation to land data</h4><p>BADC and DAE to integrate allocation with the BDS/EDLMS land-parcel database — quotas land-linked by the Boro season, not negotiated through dealers.</p></div></label>
+      <label class="ck"><input type="checkbox"><span class="box"></span><div class="txt"><h4>3 · Champion the 2026 Dealer Policy with confident enforcement</h4><p>Reward compliant dealers swiftly; correct unlifted stocks and above-MRP sales with predictable, fair consequences.</p></div></label>
+      <label class="ck"><input type="checkbox"><span class="box"></span><div class="txt"><h4>4 · Approve the e-voucher pilot in two districts</h4><p>Finance Division to move subsidy delivery from companies to farmers over mobile financial service rails.</p></div></label>
+      <label class="ck"><input type="checkbox"><span class="box"></span><div class="txt"><h4>5 · Establish the independent oversight committee</h4><p>Farmer leaders, civil society and technical experts publishing quarterly transparency reports.</p></div></label>
+      <label class="ck"><input type="checkbox"><span class="box"></span><div class="txt"><h4>6 · Deliver one million Soil Health Cards in 18 months</h4><p>SRDI to start in the most fertilizer-intensive rice belts, so entitlements and advisories rest on soil evidence.</p></div></label>
+      <label class="ck"><input type="checkbox"><span class="box"></span><div class="txt"><h4>7 · Approve the KrishiChain BD pilot at US$219,450</h4><p>Commence immediately in Chattogram and Khulna; Phase-2 funding contingent on the 95% transaction-capture gate.</p></div></label>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONCLUSION ============ -->
+<section id="conclusion">
+  <div class="wrap">
+    <div class="quote rv">
+      <p>"The ultimate measure of fertilizer security is not how much fertilizer Bangladesh has in its warehouses. It is whether a farmer can obtain <b>the right fertiliser, at the right price, at the right place, at the right time.</b>"</p>
+      <div class="attr">Ministry of Agriculture · Strategic Planning Unit</div>
+    </div>
+    <div class="cards" style="margin-top:2rem">
+      <div class="card rv"><div class="ico">⚖️</div><h4>Discipline in governance</h4><p>Officer, dealer and minister proudly accountable to the farmer — through biometric PoS, the blockchain ledger and public dashboards.</p></div>
+      <div class="card rv"><div class="ico">🤝</div><h4>Empowerment, not dependency</h4><p>Farmers treated as the rational stewards they are, through land-linked, soil-tested entitlements.</p></div>
+      <div class="card rv"><div class="ico">🇧🇩</div><h4>Self-reliance</h4><p>Domestic production revived and a sovereign, future-proof food system built on the nation's own digital rails: BDS, Krishak Card, NID. In the spirit of Bir Uttam President Ziaur Rahman's vision of economic dignity for the Krishak.</p></div>
+    </div>
+    <details class="data rv">
+      <summary>Source data appendix (Tables 1 &amp; 7, briefing of September 2026)</summary>
+      <table><tr><th>District / Division</th><th>Official price</th><th>Market price</th><th>Allocation vs lifted</th><th>Status</th></tr>
+        <tr><td>Rajshahi (TSP)</td><td>Tk 1,350 / 50 kg</td><td>Tk 1,700–1,800</td><td>not disclosed</td><td>+33% premium</td></tr>
+        <tr><td>Jashore (TSP)</td><td>~Tk 26 / kg</td><td>Tk 52 / kg</td><td>not disclosed</td><td>+100% premium</td></tr>
+        <tr><td>Gazipur (Urea)</td><td>official MRP</td><td>above MRP</td><td>800 / 1,876 t</td><td>43% lifted</td></tr>
+        <tr><td>Dhaka Division (8 districts)</td><td>official MRP</td><td>above MRP</td><td>8,965 / 19,918 t</td><td>45% lifted</td></tr>
+        <tr><td>Mymensingh Division</td><td>official MRP</td><td>above MRP</td><td>9,992 / 31,425 t</td><td>32% lifted</td></tr>
+      </table>
+      <table style="margin-top:1rem"><tr><th>Outcome</th><th>Indicator</th><th>Baseline</th><th>Y3</th><th>Y5</th></tr>
+        <tr><td>Transparent distribution</td><td>% sales via biometric PoS</td><td>0%</td><td>60%</td><td>95%</td></tr>
+        <tr><td>Equitable access</td><td>% subsidy to bottom 40%</td><td>15%</td><td>30%</td><td>40%+</td></tr>
+        <tr><td>Dealer accountability</td><td>% stock lifted within 15 days</td><td>45%</td><td>85%</td><td>95%</td></tr>
+        <tr><td>Efficiency</td><td>NUE improvement index</td><td>TBD</td><td>+10%</td><td>+20%</td></tr>
+        <tr><td>Farmer satisfaction</td><td>% receiving at official price</td><td>&lt;50%</td><td>85%</td><td>95%</td></tr>
+        <tr><td>Fiscal integrity</td><td>Subsidy leakage rate</td><td>High</td><td>&lt;10%</td><td>&lt;5%</td></tr>
+        <tr><td>Environmental</td><td>Excess nitrogen reduction</td><td>TBD</td><td>15%</td><td>30%</td></tr>
+      </table>
+    </details>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p><b>Fertilizer Management: The Path to Bloom</b> · People's Republic of Bangladesh · Ministry of Agriculture · Strategic Planning Unit · September 2026 · Classification: OFFICIAL</p>
+    <p style="margin-top:.6rem">Synthesized from "Learning from Asia: A Blueprint for Sustainable Fertilizer Management in Bangladesh's Smallholder Farms" (Feb 2026), the KrishiChain BD Digital Transformation Pilot Proposal, and the Comprehensive Strategic Report on Fertilizer Distribution Reform (Sept 2026), based on verified government data, World Bank assessments and comparative regional analysis. Aligned with the SDGs and FAO's Four Betters.</p>
+  </div>
+</footer>
+
+<script>
+/* ---------- Reveal on scroll ---------- */
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}}),{threshold:.18});
+document.querySelectorAll('.rv,.phase,.chart').forEach(el=>io.observe(el));
+
+/* ---------- Animated counters ---------- */
+const cio=new IntersectionObserver(es=>es.forEach(e=>{
+  if(!e.isIntersecting)return; cio.unobserve(e.target);
+  const el=e.target,end=parseFloat(el.dataset.count),dec=+(el.dataset.dec||0),
+        pre=el.dataset.prefix||'',suf=el.dataset.suffix||'',t0=performance.now(),dur=1600;
+  (function tick(t){const p=Math.min((t-t0)/dur,1),v=end*(1-Math.pow(1-p,3));
+    el.textContent=pre+v.toLocaleString('en-US',{minimumFractionDigits:dec,maximumFractionDigits:dec})+suf;
+    if(p<1)requestAnimationFrame(tick);})(t0);
+}),{threshold:.6});
+document.querySelectorAll('[data-count]').forEach(el=>cio.observe(el));
+
+/* ---------- Targeting scenario switch ---------- */
+const tgtBar=document.getElementById('tgtBar'),tgtLabel=document.getElementById('tgtLabel');
+document.querySelectorAll('#tgtSwitch button').forEach(b=>b.onclick=()=>{
+  document.querySelectorAll('#tgtSwitch button').forEach(x=>x.classList.remove('on'));b.classList.add('on');
+  tgtBar.style.setProperty('--w',b.dataset.v+'%');tgtLabel.textContent=b.dataset.l;
+});
+
+/* ---------- MEL scenario bars ---------- */
+const MEL=[
+ {n:'Sales via biometric PoS',v:[0,60,95],l:['0%','60%','95%']},
+ {n:'Subsidy reaching bottom 40%',v:[15,30,42],l:['15%','30%','40%+']},
+ {n:'Stock lifted within 15 days',v:[45,85,95],l:['45%','85%','95%']},
+ {n:'Farmers receiving official price',v:[49,85,95],l:['<50%','85%','95%']},
+ {n:'NUE improvement index',v:[0,10,20],l:['TBD','+10%','+20%']},
+ {n:'Excess nitrogen reduced',v:[0,15,30],l:['TBD','15%','30%']}
+];
+const melRows=document.getElementById('melRows');
+melRows.innerHTML=MEL.map(r=>`<div class="row in"><div class="lab"><b>${r.n}</b><span class="mv"></span></div><div class="track"><i class="fill-gold mw"></i></div></div>`).join('');
+function setMEL(i){document.querySelectorAll('#melRows .row').forEach((row,k)=>{
+  row.querySelector('.mw').style.setProperty('--w',MEL[k].v[i]+'%');
+  row.querySelector('.mv').textContent=MEL[k].l[i];});}
+document.querySelectorAll('#melSwitch button').forEach(b=>b.onclick=()=>{
+  document.querySelectorAll('#melSwitch button').forEach(x=>x.classList.remove('on'));b.classList.add('on');setMEL(+b.dataset.i);});
+setMEL(1);
+
+/* ---------- Asia tabs ---------- */
+document.querySelectorAll('.tabs [role=tab]').forEach(t=>t.onclick=()=>{
+  document.querySelectorAll('.tabs [role=tab]').forEach(x=>x.setAttribute('aria-selected','false'));
+  t.setAttribute('aria-selected','true');
+  document.querySelectorAll('.panel').forEach(p=>p.hidden=true);
+  document.getElementById(t.dataset.p).hidden=false;
+});
+
+/* ---------- Sign-off checklist ---------- */
+const boxes=[...document.querySelectorAll('#checklist input')],
+      ring=document.getElementById('ringFg'),C=188.5,
+      ckCount=document.getElementById('ckCount'),ckMsg=document.getElementById('ckMsg');
+function upd(){const n=boxes.filter(b=>b.checked).length;
+  ckCount.textContent=n+' / 7 signed off';
+  ring.style.strokeDashoffset=C-(C*n/7);
+  ckMsg.textContent=n===7?'Mandate complete — the bloom begins. 🌾':(n>0?'Momentum building. The time is now.':'The decision awaits, and the time is now.');
+  try{localStorage.setItem('bloom-signoff',JSON.stringify(boxes.map(b=>b.checked)))}catch(e){}}
+boxes.forEach(b=>b.addEventListener('change',upd));
+try{const s=JSON.parse(localStorage.getItem('bloom-signoff')||'[]');s.forEach((v,i)=>{if(boxes[i])boxes[i].checked=v});}catch(e){}
+upd();
+
+/* ---------- Scrollspy ---------- */
+const spy=new IntersectionObserver(es=>es.forEach(e=>{
+  if(e.isIntersecting){document.querySelectorAll('.nav-links a').forEach(a=>
+    a.classList.toggle('active',a.getAttribute('href')==='#'+e.target.id));}
+}),{rootMargin:'-40% 0px -55% 0px'});
+document.querySelectorAll('section[id]').forEach(s=>spy.observe(s));
+
+/* ---------- Apple touch icon: golden rice panicle rendered to a JPEG data-URI (self-contained) ---------- */
+(function(){
+  const S=180,c=document.createElement('canvas');c.width=c.height=S;
+  const x=c.getContext('2d'),k=S/64;
+  x.fillStyle='#006a4e';x.fillRect(0,0,S,S);
+  x.save();x.scale(k,k);
+  x.strokeStyle='#ffffff';x.lineWidth=3.5;x.lineCap='round';
+  x.beginPath();x.moveTo(32,61);x.lineTo(32,16);x.stroke();
+  x.fillStyle='#0d8a67';x.beginPath();x.moveTo(32,50);x.quadraticCurveTo(18,48,14,36);x.quadraticCurveTo(28,38,32,46);x.closePath();x.fill();
+  const grain=(cx,cy,r)=>{x.save();x.translate(cx,cy);x.rotate(r*Math.PI/180);
+    x.fillStyle='#e8b429';x.strokeStyle='#b8860b';x.lineWidth=1.2;
+    x.beginPath();x.ellipse(0,0,4.6,8,0,0,Math.PI*2);x.fill();x.stroke();x.restore();};
+  grain(32,10,0);grain(24.5,17,-32);grain(39.5,17,32);grain(23.5,27,-32);grain(40.5,27,32);grain(22.5,37,-32);grain(41.5,37,32);
+  x.restore();
+  const url=c.toDataURL('image/jpeg',0.92);           /* JPG apple-touch-icon, generated in-browser */
+  document.getElementById('appleTouchIcon').href=url;
+  const png=document.createElement('link');png.rel='icon';png.type='image/png';png.href=url;  /* PNG fallback for legacy browsers */
+  document.head.appendChild(png);
+  window.__iconDataURL=url; console.info('Apple-touch-icon (JPEG data-URI) generated. Copy window.__iconDataURL to save as apple-touch-icon.jpg if a static file is preferred.');
+})();
+</script>
+</body>
+</html>
