@@ -1,13 +1,8 @@
-# Fertilizer Management: The Path to Bloom 🌾
+# Fertilizer Management: Walking The Path towards nationalism to Bloom 🌾
 Self-contained interactive landing page for the Ministry of Agriculture briefing (Sept 2026).
 Single `index.html` — no build step, no CDN, no external assets.
 
-## Deploy to GitHub Pages (auto)
-1. Create a **public** repo, e.g. `fertilizer-path-to-bloom`.
-2. Add `index.html` at the root and `.github/workflows/deploy.yml` as shown.
-3. `git add . && git commit -m "launch" && git push`.
-4. One-time: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
-5. Every push to `main` now auto-deploys to `https://<user>.github.io/<repo>/`.
+## Deploy to GitHub Page from workflows deploy.yml
 
 ## Icons (zero binary files in repo)
 - **Favicon:** inline SVG data-URI of a golden panicle of rice (works with JS disabled).
