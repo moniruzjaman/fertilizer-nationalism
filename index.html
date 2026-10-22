@@ -32,8 +32,10 @@ h1{font-size:clamp(2rem,4.4vw,3.3rem);line-height:1.12;font-weight:800;letter-sp
 h1 em{color:var(--gold);font-style:normal}
 .lede{margin:1rem 0 1.4rem;color:#dcebe3;font-size:1.04rem;max-width:34rem}
 .slogan{display:inline-block;background:#fff;border-radius:14px;padding:.75rem 1.2rem;margin-bottom:1.2rem;box-shadow:var(--shadow)}
-.slogan .bn{font-weight:800;color:var(--green);font-size:1.45rem;line-height:1.15}
-.slogan .bn .age{color:var(--red);font-size:1rem;vertical-align:middle;padding:0 .15rem}
+.slogan .poster-bn{font-family:"Anek Bangla","Noto Sans Bengali","Hind Siliguri",sans-serif;font-weight:800;transform:skewX(-10deg);-webkit-text-stroke:.035em currentColor;letter-spacing:-.02em;line-height:.82;text-align:center}
+.slogan .poster-bn .top{display:block;color:var(--green);font-size:clamp(1.6rem,4vw,2.4rem)}
+.slogan .poster-bn .mid{display:block;color:var(--red);font-size:clamp(.9rem,2.2vw,1.4rem);width:max-content;margin:-.15em auto -.12em}
+.slogan .poster-bn .big{display:block;color:var(--green);font-size:clamp(2rem,5.5vw,3.2rem)}
 .slogan .en{color:var(--red);font-weight:800;font-style:italic;font-size:1rem}
 .cta-row{display:flex;gap:.8rem;flex-wrap:wrap}
 .btn{display:inline-block;text-decoration:none;font-weight:700;border-radius:12px;padding:.78rem 1.4rem;font-size:.93rem;transition:.2s;cursor:pointer;border:none}
@@ -153,8 +155,12 @@ details.data th{background:#f4f1e7;color:var(--green-d)}
   <div class="wrap">
     <div class="hero-grid">
       <div>
-        <div class="slogan" aria-label="Bangladesh Before All">
-          <div class="bn">সবার <span class="age">আগে</span><br>বাংলাদেশ</div>
+        <div class="slogan" aria-label="সবার আগে বাংলাদেশ — Bangladesh Before All">
+          <div class="bn poster-bn">
+            <span class="top">সবার</span>
+            <span class="mid">আগে</span>
+            <span class="big">বাংলাদেশ</span>
+          </div>
           <div class="en">Bangladesh Before All</div>
         </div>
         <div class="eyebrow">Ministry of Agriculture · Strategic Planning Unit · DAE Kurigram</div>
